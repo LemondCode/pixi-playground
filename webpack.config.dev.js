@@ -26,7 +26,7 @@ module.exports = {
         contentBase: 'dist',
         port: 3000
     },
-    devtool: 'inline-source-map',
+    devtool: 'source-map',
     plugins: [
         new CopyWebpackPlugin({
             patterns: [
